@@ -9,12 +9,9 @@
 /* Begin PBXBuildFile section */
 		7E5B759D23C595CD0051A952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B759C23C595CD0051A952 /* AppDelegate.swift */; };
 		7E5B759F23C595CD0051A952 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B759E23C595CD0051A952 /* SceneDelegate.swift */; };
-		7E5B75A123C595CD0051A952 /* FactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B75A023C595CD0051A952 /* FactTableViewController.swift */; };
 		7E5B75A423C595CD0051A952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B75A223C595CD0051A952 /* Main.storyboard */; };
 		7E5B75A623C595CE0051A952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B75A523C595CE0051A952 /* Assets.xcassets */; };
 		7E5B75A923C595CE0051A952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B75A723C595CE0051A952 /* LaunchScreen.storyboard */; };
-		7E5B75B223C596520051A952 /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B75B123C596520051A952 /* Fact.swift */; };
-		7E5B75B423C596D30051A952 /* FactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B75B323C596D30051A952 /* FactController.swift */; };
 		7E5FABEC23C655FC00D49AFC /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5FABEB23C655FC00D49AFC /* UIViewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,13 +19,10 @@
 		7E5B759923C595CD0051A952 /* CatFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5B759C23C595CD0051A952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E5B759E23C595CD0051A952 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E5B75A023C595CD0051A952 /* FactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactTableViewController.swift; sourceTree = "<group>"; };
 		7E5B75A323C595CD0051A952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E5B75A523C595CE0051A952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E5B75A823C595CE0051A952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E5B75AA23C595CE0051A952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E5B75B123C596520051A952 /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
-		7E5B75B323C596D30051A952 /* FactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactController.swift; sourceTree = "<group>"; };
 		7E5FABEB23C655FC00D49AFC /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		7E616C3223C8A17D0082E5AF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,7 +83,6 @@
 		7E5B75B523C596E70051A952 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7E5B75B123C596520051A952 /* Fact.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -97,7 +90,6 @@
 		7E5B75B623C596EC0051A952 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7E5B75B323C596D30051A952 /* FactController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -105,7 +97,6 @@
 		7E5B75B723C596F10051A952 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7E5B75A023C595CD0051A952 /* FactTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -189,12 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E5B75A123C595CD0051A952 /* FactTableViewController.swift in Sources */,
-				7E5B75B423C596D30051A952 /* FactController.swift in Sources */,
 				7E5B759D23C595CD0051A952 /* AppDelegate.swift in Sources */,
 				7E5B759F23C595CD0051A952 /* SceneDelegate.swift in Sources */,
 				7E5FABEC23C655FC00D49AFC /* UIViewControllerExt.swift in Sources */,
-				7E5B75B223C596520051A952 /* Fact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
